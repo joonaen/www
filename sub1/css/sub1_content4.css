@@ -1,0 +1,78 @@
+.identity .corpIden{margin-top: 70px; margin-bottom: 150px;}
+.identity .corpIden li{text-align: center; font-size: 1.75em; font-weight: 400; line-height: 2em;}
+.identity .contlist .corpLogo h3{font-size: 2.5em; text-align: center;margin: 100px 0; position: relative;}
+.identity .contlist .brandLogo h3{font-size: 2.5em; text-align: center; margin: 100px 0; position: relative;}
+.identity .contlist .corpLogo h3::before{content: ''; display: block; width: 5px; height: 40px; background: rgba(239,0,16,1); position: absolute; left: 50%; margin-left: -40px;  top: 10px;}
+.identity .contlist .brandLogo h3::before{content: ''; display: block; width: 5px; height: 40px; background: rgba(239,0,16,1); position: absolute; left: 50%; margin-left: -40px;  top: 10px;}
+.identity .contlist{display: none;}
+
+.identity .tabs ul{overflow: hidden; width: 800px; margin: 0 auto; margin-bottom: 150px;}
+.identity .tabs li{float: left; width: 50%; text-align: center;}
+.identity .tabs a{display: block; border-top: 1px solid #333; border-bottom: 1px solid #333; padding: 20px 0; border-left-width: 0; font-size: 1.5em; border-left: 1px solid #333; border-right:1px solid rgba(239,0,16,1);}
+.identity .tabs li:nth-of-type(1) a{border-left-width: 1px;}
+.identity .tabs li:nth-of-type(2) a{border-left-width: 0;}
+.identity .tabs .conCurrent{background: rgba(239,0,16,.1); border-color: rgba(239,0,16,1); border-left-color: rgba(239,0,16,1); color: rgba(239,0,16,1);}
+
+.identity .corpLogo .logoImg{margin-bottom: 50px;}
+.identity .corpLogo .logoImg ul{overflow: hidden;}
+.identity .corpLogo .logoImg li:nth-of-type(1){float: left; width: 600px; height: 400px; padding-top: 130px; box-sizing: border-box; background: url(../images/content4/content3.jpg); margin-right: 50px; position: relative;}
+.identity .corpLogo .logoImg li img{margin-left: 200px; transition: all .5s ease;}
+.identity .corpLogo .logoImg li img:nth-of-type(1){position: absolute; top: 100px;}
+.identity .corpLogo .logoImg li img:nth-of-type(2){position: absolute; top: 200px;}
+.identity .corpLogo .logoImg li:nth-of-type(1):hover img{transform: scale(1.3);}
+.identity .corpLogo .logoImg li:nth-of-type(1):hover img:nth-of-type(1){top: 80px;}
+.identity .corpLogo .logoImg li:nth-of-type(1):hover img:nth-of-type(2){top: 220px;}
+.identity .corpLogo .logoImg li span{display: block; margin-bottom: 20px;}
+.identity .corpLogo .logoImg dl{margin-bottom: 50px;}
+.identity .corpLogo .logoImg li:nth-of-type(2) dt{margin-top: 10px;}
+.identity .corpLogo .logoImg dt{margin-bottom: 20px;}
+.identity .corpLogo .logoImg dt strong{font-size: 1.5em; margin-right: 20px;}
+.identity .corpLogo .logoImg dd{text-align: justify;}
+
+.identity .logoColor{margin-bottom: 150px;}
+.identity .logoColor strong{font-size: 1.5em; margin-right: 20px;}
+.identity .logoColor span{display: block;}
+.identity .logoColor dt{margin-bottom: 50px;}
+.identity .logoColor ul{overflow: hidden;}
+.identity .logoColor li:nth-of-type(odd){width: 200px; margin-right: 50px;}
+.identity .logoColor li:nth-of-type(even){width: 300px; margin-right: 50px;}
+.identity .logoColor li{width: 25%; text-align: justify; float: left; }
+
+.identity .brandLogo .logoImg{margin-bottom: 50px;}
+.identity .brandLogo .logoImg ul{overflow: hidden;}
+.identity .brandLogo .logoImg li:nth-of-type(1){float: left; width: 600px; height: 400px; padding-top: 130px; box-sizing: border-box; background: url(../images/content4/content3.jpg); margin-right: 50px; position: relative;}
+.identity .brandLogo .logoImg li img{margin-left: 200px; transition: all .5s ease;}
+.identity .brandLogo .logoImg li img:nth-of-type(1){position: absolute; top: 100px;}
+.identity .brandLogo .logoImg li img:nth-of-type(2){position: absolute; top: 200px;}
+.identity .brandLogo .logoImg li:nth-of-type(1):hover img{transform: scale(1.3);}
+.identity .brandLogo .logoImg li:nth-of-type(1):hover img:nth-of-type(1){top: 80px;}
+.identity .brandLogo .logoImg li:nth-of-type(1):hover img:nth-of-type(2){top: 220px;}
+.identity .brandLogo .logoImg li span{display: block; margin-bottom: 20px;}
+.identity .brandLogo .logoImg dl{margin-bottom: 50px;}
+.identity .brandLogo .logoImg li:nth-of-type(2) dt{margin-top: 10px;}
+.identity .brandLogo .logoImg dt{margin-bottom: 20px;}
+.identity .brandLogo .logoImg dt strong{font-size: 1.5em; margin-right: 20px;}
+.identity .brandLogo .logoImg dd{text-align: justify;}
+.identity .brandLogo .logoImg{margin-bottom: 50px;}
+
+.identity .brandLogo .signature{margin-bottom: 100px;}
+.identity .brandLogo .signature dl{margin-bottom: 50px;}
+.identity .brandLogo .signature dt{margin-bottom: 20px;}
+.identity .brandLogo .signature dt strong{font-size: 1.5em; margin-right: 20px;}
+.identity .brandLogo .signature ul{overflow: hidden;}
+.identity .brandLogo .signature li{float: left; width: 25%; text-align: center; position: relative; }
+.identity .brandLogo .signature li img{transition: all .5s ease;}
+.identity .brandLogo .signature li::after{content: ""; display: block; width: 1px; height: 130px; position: absolute; right: 0; top: 0; background: #ccc;}
+.identity .brandLogo .signature li:nth-of-type(4):after{content: ""; display: none;}
+.identity .brandLogo .signature li:hover img{transform: scale(1.2);}
+.identity .brandLogo .signature li span{display: block; position: absolute; bottom: 0; left: 350px;}
+
+.identity .brandLogo .slogan{overflow: hidden; margin-bottom: 100px;}
+.identity .brandLogo .slogan ul{float: left; position: relative;}
+.identity .brandLogo .slogan li img{border-radius: 200px ; margin-right: 100px;}
+.identity .brandLogo .slogan li:nth-of-type(2){position: absolute; top: 60px; left: 70px; font-size: 2em; text-align: justify;  font-weight: 700; }
+.identity .brandLogo .slogan li:nth-of-type(2) span{display: block;}
+.identity .brandLogo .slogan dl{margin-top: 40px;}
+.identity .brandLogo .slogan dt strong{font-size: 1.5em;margin-right: 20px;}
+.identity .brandLogo .slogan dt{margin-bottom: 20px;}
+.identity .brandLogo .slogan dd{text-align: justify;}

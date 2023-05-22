@@ -1,0 +1,37 @@
+#content .qualTop{margin-top: 70px; margin-bottom: 100px;}
+#content .qualTop p{text-align: center; font-size: 1.75em; margin-bottom: 100px;}
+#content .qualTop span{display: block;}
+#content .qualTop strong{color: rgba(239,0,16,1);}
+
+#content .qualTop .topInner ul{width: 930px; height: 550px; margin: 0 auto; position: relative;}
+#content .qualTop .topInner li{position: absolute; width: 300px; height: 300px; padding: 70px 50px 50px;  background: linear-gradient(45deg, rgba(239,0,16,1), rgba(248,87,97,1)); text-align: center;  box-sizing: border-box; color: #fff; font-size: 1.2em; font-weight: 700; clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);}
+#content .qualTop .topInner li strong{margin-bottom: 30px; transition: all .5s ease; display: block; color: #fff;}
+#content .qualTop .topInner li:hover strong{margin-top: -10px; margin-bottom: 40px;}
+#content .qualTop .topInner li span{font-weight: 400; position: relative; display: block;}
+#content .qualTop .topInner li span::after{content: ''; display: block; height: 1px; width: 40px; background: #fff; position: absolute; left: 50%; margin-left: -20px; top: -20px;}
+#content .qualTop .topInner li:nth-of-type(1){left: 0; top: 70px;}
+#content .qualTop .topInner li:nth-of-type(2){left: 310px;top: 70px;}
+#content .qualTop .topInner li:nth-of-type(3){left: 620px;top: 70px;}
+#content .qualTop .topInner li:nth-of-type(4){left: 155px; top: 230px;}
+#content .qualTop .topInner li:nth-of-type(5){left: 465px; top: 230px;}
+
+#content .qualCon1{width: 2000px; position: relative; left: 50%; margin-left: -1000px; background: #f7f7f7; padding: 100px 0; margin-bottom: 100px;}
+#content .con1inner{width: 1200px; margin: 0 auto; overflow: hidden;}
+#content .con1inner h3{text-align: center; font-size: 2.5em; position: relative; margin-bottom: 100px;}
+#content .con1inner h3::before{content: ''; display: block; width: 100px; height: 2px; background: rgba(239,0,16,1); position: absolute; left: 50%; margin-left: -50px;  top: 70px;}
+#content .con1inner dl{font-size: 1.2em;}
+#content .con1inner dt{float: left; font-weight: 700; color: rgba(239,0,16,1); margin-right:  50px; width: 160px;  margin-bottom: 90px;}
+
+#content .con1inner li:nth-of-type(9) dt{margin-bottom: 0;}
+#content .con1inner dd{float: left; width: 800px; text-align: justify; background: #fff; padding: 20px; border-right: 5px solid rgba(239,0,16,1); transition: all .5s ease; position: relative; top: 0;}
+#content .con1inner dd:hover{top: -10px; box-shadow: 4px 4px 10px 2px rgba(0,0,0,.3);}
+#content .con1inner dl::after{content: ''; display: block; clear: both;}
+
+#content .qualCon2{width: 850px; margin: 0 auto; overflow: hidden; }
+#content .qualCon2 h3{text-align: center; font-size: 2.5em; position: relative; margin-bottom: 100px;}
+#content .qualCon2 h3::before{content: ''; display: block; width: 100px; height: 2px; background: rgba(239,0,16,1); position: absolute; left: 50%; margin-left: -50px;  top: 70px;}
+#content .qualCon2 div{width: 350px;  background: #f7f7f7; padding: 25px; overflow: hidden; margin-bottom: 50px;}
+#content .qualCon2 .box1{float: left; margin-right: 50px;}
+#content .qualCon2 .box1 li:nth-of-type(1) strong{display: block; }
+#content .qualCon2 .box3{float: left; margin-right: 50px; margin-bottom: 100px;}
+#content .qualCon2 div img{float: left; margin-right: 20px;}

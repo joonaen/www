@@ -1,0 +1,40 @@
+#content .lab_info{margin-top: 70px;  padding-bottom: 150px; position: relative; box-sizing: border-box; }
+#content .labInner1{overflow: hidden;}
+#content .lab_info::after{content: 'KUMHO'; color: #fff; position: absolute; bottom: -60px; right: -250px; -webkit-text-stroke: 10px #f7f7f7; font-size: 13em; font-weight: 800; }
+#content .labLeft{width: 450px; float: left; margin-top: 100px;}
+#content .labLeft img{border-radius: 0 0  0 50%;}
+#content .labLeft span:nth-child(1){font-size: 1em; color: rgba(239,0,16,1); margin-bottom: 20px; display: block; font-weight: 700;}
+#content .labLeft p:nth-of-type(2) span{color: #333; font-weight: 400;}
+#content .labLeft p:nth-of-type(1){font-size: 1.5em; text-align: justify; font-weight: 700; margin-bottom: 30px;}
+#content .labLeft p:nth-of-type(2){margin-bottom: 100px; font-size: 1.2em; line-height: 1.5em;}
+
+
+#content .labRight{float: right; width: 550px; }
+#content .labRight img{margin-bottom: 150px; border-radius: 0 50% 0 0 ;}
+#content .labRight p{font-size: 1.2em; line-height: 1.5em;}
+#content .labRight p span{display: block; margin-top: 50px;}
+
+
+#content .labSub{padding-top: 150px; background: #f7f7f7; width: 2000px; position: relative; left: 50%; margin-left: -1000px; padding-bottom: 120px;}
+#content .labInner2{width: 1200px; margin: 0 auto;}
+#content .labInner2 h3{font-size: 2em; margin-bottom: 30px; display: block;}
+#content .labInner2 span{display: block; margin-bottom: 5px;}
+#content .labInner2 p{margin-bottom: 30px;}
+#content .labInner2 ul{overflow: hidden; counter-reset: section; position: relative;}
+#content .labInner2 ul::before{content: ''; display: block; position: absolute; width: 100%; height: 1px; background: #999; top: 10px;}
+#content .labInner2 li{float: left; width: 33.33%;position: relative;  height: 210px; padding-top: 50px; box-sizing: border-box;padding-left: 20px;}
+#content .labInner2 li:nth-of-type(3){float: right;}
+#content .labInner2 li::before{content: "0"counters(section,""); counter-increment: section; font-size: 9.375em; position: absolute; bottom: 10px; right: 20px; font-family: 'Montserrat'; font-weight: 700; opacity: 0.05;}
+#content .labInner2 dt{font-size: 1.2em; font-weight: 700; margin-bottom: 10px; color: rgba(239,0,16,1);}
+#content .labInner2 dd{margin-left: 10px;}
+
+
+#content .map1{margin-top: 150px; margin-bottom: 100px;}
+#content .map1 h3{font-size: 2em; width: 100%; text-align: center; margin-bottom: 50px;}
+#content .map1 ul{overflow: hidden;}
+#content .map1 li{font-size: 1.5em; margin-bottom: 30px; position: relative;}
+#content .map1 li:nth-of-type(1) i{margin-right: 25px;}
+#content .map1 li:nth-of-type(1) span{margin-left: 95px;}
+#content .map1 li i{margin-right: 20px;}
+#content .map1 li span{margin: 0 50px;}
+#content .map1 #map_content1{width: 1200px; height: 600px;  margin-bottom: 100px;}

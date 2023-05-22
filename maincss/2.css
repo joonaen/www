@@ -1,0 +1,24 @@
+/* 메인비주얼 */
+.main_visual{width: 2000px; height:912px ; overflow: hidden;
+      position: relative; left: 50%; margin-left: -1000px; margin-top: 86px;}
+
+/* 본문콘텐츠 */
+
+/*
+#content{width: 100%;}
+
+#content .kkk{height: 600px; background: #ccc;}
+#content .kkk>div{width: 1200px; margin: 0 auto;}
+
+#content .xxx{width: 1200px; height: 400px; margin: 0 auto; background: orange;}
+
+#content .sss{height: 600px; background: #ccc;}
+#content .sss>div{width: 1200px; margin: 0 auto;}
+
+#content .ggg{width: 1200px; height: 400px; margin: 0 auto; background: orange;}
+*/
+
+#content{width: 1200px; border: 1px solid red; margin: 0 auto;}
+#content .kkk{height: 500px; background: orange;}
+#content .xxx{width: 2000px; height: 500px; background: green;
+          position: relative; left: 50%; margin-left: -1000px;}

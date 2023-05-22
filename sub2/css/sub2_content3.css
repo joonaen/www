@@ -1,0 +1,150 @@
+#content .business .busiTop{text-align: center; font-size: 1.75em; margin-top: 70px; margin-bottom: 70px;}
+#content .business p span:nth-of-type(1){display: block;}
+#content .business p span:nth-of-type(2){color: rgba(239,0,16,1);}
+#content .tabs{height: 145px; box-sizing: border-box;  width: 600px; margin: 0 auto 150px;}
+#content .tabs li{width: 200px; height: 145px; float: left; position: relative;border: 1px solid #ccc;border-left: 0; border-right: 0;box-sizing: border-box; transition: all .5s ease; }
+#content .tabs li a{display: block;  height: 145px; box-sizing: border-box;}
+/* #content .busiTab li:nth-of-type(1) a span{left: 0; bottom: 10px;} */
+#content .tabs li a span{position: absolute; left: 0; bottom: 10px; width: 200px; text-align: center;}
+#content .tabs li:nth-of-type(1)::before{content: ''; display: none;}
+#content .tabs li::before{content: ''; display: block; width: 1px; height: 50px; background: #ccc; position: absolute; top: 45px;}
+#content .tabs li:nth-of-type(1) a::before{content: ''; display: block; background: url(../images/content3/content1.png) no-repeat; width: 100px; height: 60px; position: absolute; left: 40%; top: 20%;}
+#content .tabs li:nth-of-type(2) a::before{content: ''; display: block; background: url(../images/content3/apt.png) no-repeat; width: 100px; height: 60px; position: absolute; left: 30%; top: 20%;}
+#content .tabs li:nth-of-type(3) a::before{content: ''; display: block; background: url(../images/content3/urban.png) no-repeat; width: 100px; height: 60px; position: absolute; left: 30%; top: 20%;}
+#content .tabs .conCurrent{border-bottom: 1px solid rgba(239,0,16,1); background: #f7f7f7;}
+#content .tabs li:hover{border-bottom: 1px solid rgba(239,0,16,1); background: #f7f7f7;}
+.busiTop p strong{color: rgba(239,0,16,1);}
+#content .contlist{display: none;}
+
+#content .busiCon1{ position: relative; padding-bottom: 75px; margin-bottom: 75px; border-bottom: 1px solid #ccc;}
+#content .busiCon1 .conImg{width: 1200px; overflow: hidden; margin-bottom: 50px; position: relative;}
+#content .busiCon1 .conTop{float: left; }
+#content .busiCon1 .imgSub{display: flex; flex-wrap: wrap; width: 360px; float: right;}
+#content .busiCon1 .imgSub li{margin-bottom: 10px; margin-left: 10px; position: relative;}
+#content .busiCon1 .imgSub li::after{content: ''; display: block; width: 100%; height: 100%; background: url(../images/content2/cross.png) no-repeat; position: absolute; top: 40px; left: 70px; opacity: 0; transition: all .2s ease;}
+#content .busiCon1 .imgSub li::before{content: ''; display: block; width: 100%; height: 100%; background: rgba(0,0,0,.5); position: absolute; top: 0; left: 0; opacity: 0;transition: all .2s ease;}
+#content .busiCon1 .imgSub .imgCurrent::after{opacity: 1;}
+#content .busiCon1 .imgSub .imgCurrent::before{opacity: 1;}
+#content .busiCon1 .imgSub li:hover::after{opacity: 1;}
+#content .busiCon1 .imgSub li:hover::before{opacity: 1;}
+#content .conTop{position: relative;}
+#content .busiBtn a:nth-child(1){position: absolute; top: 250px; left: 0; font-size: 2em;  width: 50px; height: 50px; text-align: center;  box-sizing: border-box; transition: all .3s ease; background: rgba(0,0,0,.5); color: #fff;} 
+#content .busiBtn a:nth-child(1):hover{color: rgba(239,0,16,1);}
+#content .busiBtn a:nth-child(2){position: absolute; top: 250px; right: 0; font-size: 2em;  width: 50px; height: 50px;text-align: center; box-sizing: border-box; transition: all .3s ease; background: rgba(0,0,0,.5); color: #fff;}
+#content .busiBtn a:nth-child(2):hover{ color: rgba(239,0,16,1);}
+
+#content .infoSub{position: absolute; right: 0; bottom: 0; width: 360px;}
+#content .infoSub p:nth-of-type(1){color: rgba(239,0,16,1); font-weight: 700;}
+#content .infoSub p:nth-of-type(2){font-size: 2.5em; text-align: justify; font-weight: 700;}
+
+#content .busiMore{margin-top: 30px; border: 1px solid #ccc; padding: 10px 5px 5px 5px; width: 140px; height: 40px; text-align: center; transition: all 1s ease; position: relative;}
+#content .busiMore i{margin-top: 10px; transition: all .1s ease;}
+#content .busiMore:hover{color: #fff; border: 1px solid rgba(0,0,0,0);}
+#content .busiMore::before{content: ''; display: block; width: 0; height: 100%; background: rgba(239,0,16,1); position: absolute; top: 0; left: 0;z-index: -1; transition: all .5s ease;}
+#content .busiMore:hover i{margin-left: 10px;}
+#content .busiMore:hover::before{width: 100%;}
+
+#content .infoMain p:nth-of-type(1){font-size: 2em; font-weight: 700; margin-bottom: 30px;}
+#content .infoMain p:nth-of-type(2){font-size: 1.2em; text-align: justify; font-weight: 300;}
+
+#content .busiCon2{ position: relative; padding-bottom: 75px; margin-bottom: 75px; }
+#content .busiCon2 .conImg{width: 1200px; overflow: hidden; margin-bottom: 50px; position: relative;}
+#content .busiCon2 .conTop{float: right; }
+#content .busiCon2 .imgSub{display: flex; flex-wrap: wrap; width: 360px; float: left;}
+#content .busiCon2 .imgSub li{margin-bottom: 10px; margin-left: 10px; position: relative;}
+#content .busiCon2 .imgSub li::after{content: ''; display: block; width: 100%; height: 100%; background: url(../images/content2/cross.png) no-repeat; position: absolute; top: 40px; left: 70px; opacity: 0; transition: all .2s ease;}
+#content .busiCon2 .imgSub li::before{content: ''; display: block; width: 100%; height: 100%; background: rgba(0,0,0,.5); position: absolute; top: 0; left: 0; opacity: 0;transition: all .2s ease;}
+#content .busiCon2 .imgSub .imgCurrent::after{opacity: 1;}
+#content .busiCon2 .imgSub .imgCurrent::before{opacity: 1;}
+#content .busiCon2 .imgSub li:hover::after{opacity: 1;}
+#content .busiCon2 .imgSub li:hover::before{opacity: 1;}
+
+#content .busiCon2 .infoSub{position: absolute; left: 0; bottom: 0; width: 360px;}
+#content .busiCon2 .infoSub p:nth-of-type(1){color: rgba(239,0,16,1); font-weight: 700;}
+#content .busiCon2 .infoSub p:nth-of-type(2){font-size: 2.5em; text-align: justify; font-weight: 700;}
+#content .conTop{overflow: hidden;}
+#content .conTop img{transition: all .5s ease;}
+
+
+
+
+.business .apt{position: relative; height: 1500px;}
+.business .apt span img{position: relative; left: 50%; margin-left: -1000px; margin-bottom: 500px;}
+.business .apt ul{width: 1200px; background: #fff; position: absolute  ; top: 250px; left: 0; overflow: hidden; box-shadow: 5px 5px 20px rgba(0,0,0,.2); border-bottom: 5px solid rgba(239,0,16,1); box-sizing: border-box;}
+.business .apt li:nth-of-type(1){text-align: left; margin: 50px 50px 50px 70px; font-size: 2.5em; font-weight: 700; float: left;}
+.business .apt li:nth-of-type(1)::before{content: ''; display: block; width: 5px; height: 40px; background: rgba(239,0,16,1); position: absolute; left: 50px; top: 60px;}
+.business .apt li:nth-of-type(2)::after{content: ""; display: block; clear: both;}
+.business .apt li:nth-of-type(2){text-align: left; width:900px;margin: 79px 0 0 100px;  font-size: 1em;}
+.business .apt li:nth-of-type(n+3):nth-of-type(odd) dl{position: relative; color: #fff; margin: 0 50px 50px 75px; overflow: hidden;  width: 500px; box-shadow: 2px 2px 20px rgba(0,0,0,.3); float: left; }
+.business .apt li:nth-of-type(n+3):nth-of-type(odd) dt{font-size: 1.5em; position: absolute; top: 230px; left: 70px;z-index: 10; transition: all .5s ease;}
+.business .apt li:nth-of-type(n+3):nth-of-type(odd) dd:nth-of-type(1){position: absolute; top: 300px; left: 70px;z-index: 10; transition: all .5s ease;}
+.business .apt li:nth-of-type(n+3):nth-of-type(odd) dd:nth-of-type(2) span{display: block; background: rgba(0,0,0,.3); position: absolute; top: 200px; left: 0; width: 500px; height: 300px; z-index: 5; transition: all .5s ease;}
+.business .apt li:nth-of-type(n+3):nth-of-type(odd) dl:hover dt{top: 70px;}
+.business .apt li:nth-of-type(n+3):nth-of-type(odd) dl:hover dd:nth-of-type(1){top: 130px;}
+.business .apt li:nth-of-type(n+3):nth-of-type(odd) dl:hover dd:nth-of-type(2) span{top: 0;}
+.business .apt li:nth-of-type(n+3):nth-of-type(odd) dd:nth-of-type(1) span{display: block; margin-bottom: 10px;}
+
+
+.business .apt li:nth-of-type(n+4):nth-of-type(even) dl{position: relative; color: #fff; margin: 0 50px 50px; overflow: hidden;  width: 500px; box-shadow: 2px 2px 20px rgba(0,0,0,.3);}
+.business .apt li:nth-of-type(n+4):nth-of-type(even) dt{font-size: 1.5em; position: absolute; top: 230px; left: 70px;z-index: 10; transition: all .5s ease;}
+.business .apt li:nth-of-type(n+4):nth-of-type(even) dd:nth-of-type(1){position: absolute; top: 300px; left: 70px;z-index: 10; transition: all .5s ease;}
+.business .apt li:nth-of-type(n+4):nth-of-type(even) dd:nth-of-type(2) span{display: block; background: rgba(0,0,0,.3); position: absolute; top: 200px; left: 0; width: 500px; height: 300px; z-index: 5; transition: all .5s ease;}
+.business .apt li:nth-of-type(n+4):nth-of-type(even) dl:hover dt{top: 70px;}
+.business .apt li:nth-of-type(n+4):nth-of-type(even) dl:hover dd:nth-of-type(1){top: 130px;}
+.business .apt li:nth-of-type(n+4):nth-of-type(even) dl:hover dd:nth-of-type(2) span{top: 0;}
+.business .apt li:nth-of-type(n+4):nth-of-type(even) dd:nth-of-type(1) span{display: block; margin-bottom: 10px;}
+.business .apt li dl img{transition: all .5s ease;}
+.business .apt li dl:hover img{transform: scale(1.1);}
+
+
+#content .roadBtn a:nth-child(1){position: absolute; top: 60px; right: 150px; font-size: 2em; color: #ccc; transition: all .2s linear;}
+#content .roadBtn a:nth-child(1):hover{color: rgba(239,0,16,1)}
+#content .roadBtn::after{content: ''; display: block; width: 3px; height: 30px; background: #ccc; position: absolute; top: 70px; right: 130px;}
+#content .roadBtn a:nth-child(2){position: absolute; top: 60px; right: 90px; font-size: 2em; color: #ccc; transition: all .2s linear;}
+#content .roadBtn a:nth-child(2):hover{color: rgba(239,0,16,1)}
+#content .roadBtn span{position: absolute; top: 17px; right: 400px; font-size: 2.5em; color: #ccc; transition: all .2s linear; text-align: justify;}
+#content .roadBtn span:hover{transform: rotate(180deg); color: rgba(239,0,16,1);}
+
+
+.business .urban{position: relative; height: 1500px;}
+.business .urban span img{position: relative; left: 50%; margin-left: -1000px; margin-bottom: 500px;}
+.business .urban ul{width: 1200px; background: #fff; position: absolute  ; top: 250px; left: 0; overflow: hidden; box-shadow: 5px 5px 20px rgba(0,0,0,.2); border-bottom: 5px solid rgba(239,0,16,1); box-sizing: border-box;}
+.business .urban li:nth-of-type(1){text-align: left; margin: 50px 50px 50px 70px; font-size: 2.5em; font-weight: 700; float: left;}
+.business .urban li:nth-of-type(1)::before{content: ''; display: block; width: 5px; height: 40px; background: rgba(239,0,16,1); position: absolute; left: 50px; top: 60px;}
+.business .urban li:nth-of-type(2)::after{content: ""; display: block; clear: both;}
+.business .urban li:nth-of-type(2){text-align: left; width:900px;margin: 79px 0 0 100px;  font-size: 1em;}
+.business .urban li:nth-of-type(n+3):nth-of-type(odd) dl{position: relative; color: #fff; margin: 0 50px 50px 75px; overflow: hidden;  width: 500px; box-shadow: 2px 2px 20px rgba(0,0,0,.3); float: left; }
+.business .urban li:nth-of-type(n+3):nth-of-type(odd) dt{font-size: 1.5em; position: absolute; top: 230px; left: 70px;z-index: 10; transition: all .5s ease;}
+.business .urban li:nth-of-type(n+3):nth-of-type(odd) dd:nth-of-type(1){position: absolute; top: 300px; left: 70px;z-index: 10; transition: all .5s ease;}
+.business .urban li:nth-of-type(n+3):nth-of-type(odd) dd:nth-of-type(2) span{display: block; background: rgba(0,0,0,.3); position: absolute; top: 200px; left: 0; width: 500px; height: 300px; z-index: 5; transition: all .5s ease;}
+.business .urban li:nth-of-type(n+3):nth-of-type(odd) dl:hover dt{top: 70px;}
+.business .urban li:nth-of-type(n+3):nth-of-type(odd) dl:hover dd:nth-of-type(1){top: 130px;}
+.business .urban li:nth-of-type(n+3):nth-of-type(odd) dl:hover dd:nth-of-type(2) span{top: 0;}
+.business .urban li:nth-of-type(n+3):nth-of-type(odd) dd:nth-of-type(1) span{display: block; margin-bottom: 10px;}
+
+
+.business .urban li:nth-of-type(n+4):nth-of-type(even) dl{position: relative; color: #fff; margin: 0 50px 50px; overflow: hidden;  width: 500px; box-shadow: 2px 2px 20px rgba(0,0,0,.3);}
+.business .urban li:nth-of-type(n+4):nth-of-type(even) dt{font-size: 1.5em; position: absolute; top: 230px; left: 70px;z-index: 10; transition: all .5s ease;}
+.business .urban li:nth-of-type(n+4):nth-of-type(even) dd:nth-of-type(1){position: absolute; top: 300px; left: 70px;z-index: 10; transition: all .5s ease;}
+.business .urban li:nth-of-type(n+4):nth-of-type(even) dd:nth-of-type(2) span{display: block; background: rgba(0,0,0,.3); position: absolute; top: 200px; left: 0; width: 500px; height: 300px; z-index: 5; transition: all .5s ease;}
+.business .urban li:nth-of-type(n+4):nth-of-type(even) dl:hover dt{top: 70px;}
+.business .urban li:nth-of-type(n+4):nth-of-type(even) dl:hover dd:nth-of-type(1){top: 130px;}
+.business .urban li:nth-of-type(n+4):nth-of-type(even) dl:hover dd:nth-of-type(2) span{top: 0;}
+.business .urban li:nth-of-type(n+4):nth-of-type(even) dd:nth-of-type(1) span{display: block; margin-bottom: 10px;}
+.business .urban li dl img{transition: all .5s ease;}
+.business .urban li dl:hover img{transform: scale(1.1);}
+
+
+
+#content .conTop{overflow: hidden;}
+#content .conTop img{transition: all .5s ease;}
+#content .conTop .imgInner{width: 5920px; position: relative; left: 0;}
+#content .conTop .imgInner .overImg{width: 2960px; float: left;}
+#content .conTop .imgInner::after{content: ''; display: block; clear: both;}
+#content .conTop .imgInner ul li{float: left;}
+#content .conTop{width: 740px; height: 555px; overflow: hidden;}
+
+#content .overBtn a:nth-child(1){position: absolute; top: 250px; left: 0; font-size: 2em;  width: 50px; height: 50px; text-align: center;  box-sizing: border-box; transition: all .3s ease; background: rgba(0,0,0,.5); color: #fff;} 
+#content .overBtn a:nth-child(1):hover{color: rgba(239,0,16,1);}
+#content .overBtn a:nth-child(2){position: absolute; top: 250px; right: 0; font-size: 2em;  width: 50px; height: 50px;text-align: center; box-sizing: border-box; transition: all .3s ease; background: rgba(0,0,0,.5); color: #fff;}
+#content .overBtn a:nth-child(2):hover{ color: rgba(239,0,16,1);}

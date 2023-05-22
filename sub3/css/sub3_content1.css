@@ -1,0 +1,37 @@
+#content .ethicsTop{width: 1200px;height: 400px; margin: 0 auto; position: relative; background: url(../images/content1/ethics1_01.jpg) no-repeat ; background-position: center bottom; margin-top: 70px; padding: 150px 200px 200px; box-sizing: border-box; margin-bottom: 150px;}
+#content .ethicsTop p{font-size: 1.5em; color: #fff; position: relative; z-index: 10; text-align: center;}
+#content .ethicsTop span{display: block; width: 1200px; height: 400px;   position: absolute; left: 0; top: 0; background: rgba(0,0,0,.3); }
+
+#content .ethicsMid .midCon1{margin-bottom: 150px; overflow: hidden; width: 2000px; position: relative; left: 50%; margin-left: -1000px;}
+#content .ethicsMid .con1inner{width: 1200px; margin: 0 auto;}
+#content .ethicsMid .midCon1 p{margin-bottom: 150px; text-align: center; font-size: 1.75em; position: relative;  display: block; background: #f7f7f7; padding: 50px 0;}
+#content .ethicsMid .midCon1 p::before{content: ''; display: block; width:50px; height: 30px; background: url(../images/content1/quote1_01.png) no-repeat top; position: absolute; left: 80px; top: 40px; opacity: .3;}
+#content .ethicsMid .midCon1 p::after{content: ''; display: block; width:50px; height: 30px; background: url(../images/content1/quote2_01.png) no-repeat bottom; position: absolute; right: 80px; bottom: 40px; opacity: .3;}
+#content .ethicsMid .midCon1 img{float: left; position: relative; margin-left: -500px;}
+#content .ethicsMid .midCon1 dl{width: 500px; float: right; margin-top: 150px; }
+/* #content .ethicsMid dl::after{content: ''; display: block; clear: both;} */
+#content .ethicsMid .midCon1 dt{font-size: 2em; font-weight: 700; margin-bottom: 30px;}
+#content .ethicsMid .midCon1 dt span{color: rgba(239,0,16,1);}
+#content .ethicsMid .midCon1 dd{font-size: 1.2em; line-height: 2em;}
+
+#content .midCon2{width: 2000px; margin-left: -1000px; position: relative; left: 50%; background: #f7f7f7; padding: 50px 0; margin-bottom: 150px;}
+#content .midCon2 .con2inner{width: 1200px; margin: 0 auto;}
+#content .midCon2 h3{font-size: 2.5em; position: relative; margin-left: 30px; margin-bottom: 50px;}
+#content .midCon2 h3::before{content: ''; display: block; position: absolute; width: 5px; height: 40px; background: rgba(239,0,16,1); top: 12px; left: -30px;}
+#content .con2inner dl{margin-bottom: 50px; position: relative; }
+#content .con2inner dl::after{content: ''; display: block; width: 1200px; height: 1px; background: #ccc; position: absolute; left: 0; bottom: -30px;}
+#content .con2inner li:nth-of-type(5) dl::after{content: ''; display: none;}
+#content .con2inner dt{font-size: 1.5em; font-weight: 700; margin-bottom: 30px;}
+#content .con2inner dd{font-size: 1.1em; margin-bottom: 20px; padding: 0 150px 0 50px;}
+
+#content .midCon3{margin-bottom: 150px; overflow: hidden;}
+#content .midCon3 h3{font-size: 2.5em; position: relative; margin-left: 30px; margin-bottom: 50px;}
+#content .midCon3 h3::before{content: ''; display: block; position: absolute; width: 5px; height: 40px; background: rgba(239,0,16,1); top: 12px; left: -30px;}
+#content .midCon3 .imgText{float: right; position: relative;}
+#content .midCon3 .imgText::after{content: 'ISO37001 인증서'; position: absolute; bottom: -20px; left: 50%; margin-left: -60px;}
+
+#content .midCon3 li{margin-bottom: 30px;}
+
+#content .midCon3 li span{color: rgba(239,0,16,1); display: block; margin-bottom: 20px;position: relative; font-size: 1.5em;}
+#content .midCon3 li span::after{content: ''; display: block; width: 50px; height: 1px; background: #ccc; position: absolute; bottom: -10px;}
+#content .midCon3 li p{width: 500px;}

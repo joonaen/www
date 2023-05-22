@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회사소개-기업정보</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_content1.css">
+
+    <script src="https://kit.fontawesome.com/ebace215db.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <? include "../common/sub_header.html" ?>
+        <div class="visual">
+            <img src="./common/images/visual_01.jpg" alt="">
+            <h3>회사소개</h3>
+        </div>
+        <div class="sub_nav">
+            <ul>
+                <li><a class="current" href="./sub1_1.html">기업정보</a></li>
+                <li><a href="./sub1_2.html">CEO 인사말</a></li>
+                <li><a href="./sub1_3.html">주요연혁</a></li>
+                <li><a href="./sub1_4.html">CI / BI</a></li>
+            </ul>
+        </div>
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    home &gt; 회사소개 &gt; <strong>기업정보</strong>
+                </div>
+               <div class="titleMove">
+                 <h2>기업정보</h2>
+                 <p><span>KUMHO</span> E&C</p>
+                 <p>Engineering & construction</p>
+               </div>
+            </div>
+            <div class="content_area">
+                <div class="corp_info">
+                    <div class="wp1">
+                        <img src="./images/content1/content1.jpg" alt="">
+                        <p>세계속의 한국, 한국속의 세계를 건설하기 위해<br>
+                            새 천년 초일류 기업으로 거듭 태어나겠습니다.</p>
+                    </div>
+                    <div class="corp_infoInner">
+                        <dl class="wp2">
+                            <dt>“ 고도의 기술을 바탕으로 비약적인<br>
+                                성장을 거듭해 온 국내 TOP 건설업체 ”</dt>
+                            <dd>금호건설은 공항시설과 물류시설, SOC사업 등에서
+                                성장을 거듭해 온 국내 TOP 건설업체입니다.
+                                신기술에 의한 환경사업분야, 주택사업 분야 등
+                                다방면에서 활약하고 있으며, 2002년 3월 국내
+                                하수처리시설 건설기술인 KIDEA 공법으로
+                                첫 장영실 상을 수상하였습니다.</dd>
+                        </dl>
+                        <dl class="wp3">                            
+                            <dt>“ 이웃과의 어울림, 인간과의 어울림<br>
+                                자연과의 어울림을 실천 ”</dt>
+                            <dd>금호건설은 2003년 5월부터 이웃과 인간과의 어울림, 자
+                                연과의 어울림, 첨단 생활과의 어울림을 의미하는 아파
+                                트 브랜드 “어울림”을 선보이고 있습니다. “어울림” 브
+                                랜드는 고급스러운 느낌, 자연친화적인 아파트, 사람과
+                                어울려 살아가는 친근한 의미를 전달하며 국내 주택 트
+                                렌드를 선도하고 있는 국내최고의 아파트브랜드입니다.</dd>                            
+                        </dl>
+                        <dl class="wp4">                            
+                            <dt>“ 윤리경영을 토대로 모범이 되는 기업 ”</dt>
+                            <dd>금호건설은 2004년 전경련 주관 윤리경영 TOP10 선정,
+                                2005년 한국윤리경영대상 수상, 2007년 한국사회공헌
+                                대상 수상 등 윤리경영과 관련한 각종 대외수상 실적을
+                                지닌 모범 기업이기도 합니다. 금호건설은 사회봉사활동
+                                영역에서부터 문화예술 지원 활동, 환경정화운동 등 세
+                                분야로 나눠 매년 700여건 이상의 봉사활동을 펼치며
+                                소외지역 · 계층에 힘이 되고자 하는 노력을 지속하고
+                                있습니다.</dd>                            
+                        </dl>
+                    </div>
+                </div>
+                <section class="corp_sale wp5">
+                   <div class="corp_saleBack">
+                     <h3>매출현황</h3>
+                     <div class="corp_saleInner">
+                        <dl>
+                            <dt>20,485</dt>
+                            <dd>토목 : 4,798  건축 : 5,344  주택 : 10,343</dd>
+                        </dl>
+                        <dl>
+                            <dt>20,651</dt>
+                            <dd>토목 : 4,871 건축 : 5,482 주택 : 10,298</dd>
+                        </dl>
+                        <dl>
+                            <dt>18,296</dt>
+                            <dd>토목 : 4,187 건축 : 4,866 주택 : 9,243</dd>
+                        </dl>
+                     </div>
+                     <p>(단위 : 억원)</p>
+                   </div>
+                </section>
+            </div>
+        </article>
+        <? include "../common/sub_footer.html" ?>
+        <script>
+            $('.wp1').waypoint(function() {    //스크롤링시 효과가 발생할 요소의 클래스나 아이디명.
+                $('.wp1').addClass('animated fadeInDown');
+            }, {
+                offset: '75%'            //스크롤과의 거리
+            });
+            $('.wp2').waypoint(function() {
+                $('.wp2').addClass('animated fadeInLeft');
+            }, {
+                offset: '50%'
+            });        
+            $('.wp3').waypoint(function() {
+                $('.wp3').addClass('animated fadeInRight');
+            }, {
+                offset: '75%'
+            });
+            $('.wp4').waypoint(function() {
+                $('.wp4').addClass('animated fadeInLeft');
+            }, {
+                offset: '75%'
+            });
+            $('.wp5').waypoint(function() {
+                $('.wp5').addClass('animated fadeInDown');
+            }, {
+                offset: '75%'
+            });
+
+        </script>
+</body>
+</html>

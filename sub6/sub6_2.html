@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>고객지원-분양정보</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub6common.css">
+    <link rel="stylesheet" href="./css/sub6_content2.css">
+
+    <script src="https://kit.fontawesome.com/ebace215db.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>고객지원</h3>
+        </div>
+        <div class="sub_nav">
+            <ul>
+                <li><a href="https://gogooma0510.cafe24.com/gb/bbs/board.php?bo_table=notice">뉴스</a></li>
+                <li><a class="current" href="./sub6_2.html">분양정보</a></li>
+                <li><a href="./sub6_3.html">인재채용</a></li>
+                <li><a href="./sub6_4.html">찾아오시는 길</a></li>
+            </ul>
+        </div>
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    home &gt; 고객지원 &gt; <strong>분양정보</strong>
+                </div>
+               <div class="titleMove">
+                 <h2>분양정보</h2>
+                 <p><span>KUMHO</span> E&C</p>
+                 <p>Engineering & construction</p>
+               </div>
+            </div>
+            <div class="information">
+                <ul class="pop_menu">
+                    <li class="wp1">
+                        <img src="./images/content2/info1_01.jpg" alt="">
+                        <strong>안성 금호어울림 더프라임</strong>
+                        <a href="">+ MORE</a>
+                    </li>
+                    <li class="wp1 delay-025s">
+                        <img src="./images/content2/info2_01.jpg" alt="">
+                        <strong>강릉교동 금호어울림 올림픽파크</strong>
+                        <a href="">+ MORE</a>
+                    </li>
+                    <li class="wp1 delay-05s">
+                        <img src="./images/content2/info3_01.jpg" alt="">
+                        <strong>왕길역 금호어울림 에듀그린</strong>
+                        <a href="">+ MORE</a>
+                    </li>
+                    <li class="wp2">
+                        <img src="./images/content2/info4_01.jpg" alt="">
+                        <strong>옥천역 금호어울림 더퍼스트</strong>
+                        <a href="">+ MORE</a>
+                    </li>
+                    <li class="wp2 delay-025s">
+                        <img src="./images/content2/info5_01.jpg" alt="">
+                        <strong>문수로 금호어울림 더 퍼스트</strong>
+                        <a href="">+ MORE</a>
+                    </li>
+                    <li class="wp2 delay-05s">
+                        <img src="./images/content2/info6_01.jpg" alt="">
+                        <strong>진천 금호어울림 센트럴파크</strong>
+                        <a href="">+ MORE</a>
+                    </li>
+                    <li class="wp3">
+                        <img src="./images/content2/info7_01.jpg" alt="">
+                        <strong>DMC 금호 리첸시아</strong>
+                        <a href="">+ MORE</a>
+                    </li>
+                    <li class="wp3 delay-025s">
+                        <img src="./images/content2/info8_01.jpg" alt="">
+                        <strong>광주 금호 리첸시아</strong>
+                        <a href="">+ MORE</a>
+                    </li>
+                    <li class="wp3 delay-05s">
+                        <img src="./images/content2/info9_01.jpg" alt="">
+                        <strong>리첸시아 중동</strong>
+                        <a href="">+ MORE</a>
+                    </li>
+                    <li class="wp4">
+                        <img src="./images/content2/info10_01.jpg" alt="">
+                        <strong>리첸시아 용산</strong>
+                        <a href="">+ MORE</a>
+                    </li>
+                    <li class="wp4 delay-025s">
+                        <img src="./images/content2/info11_01.jpg" alt="">
+                            <strong>리첸시아 방배</strong>
+                            <a href="">+ MORE</a>
+                    </li>
+                    <li class="wp4 delay-05s">
+                        <img src="./images/content2/info12_01.jpg" alt="">
+                        <strong>용산구한남동 금호리첸시아</strong>
+                        <a href="">+ MORE</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="modal_box"></div>
+
+                <div class="popup">
+                    <div class="product_list"></div>
+                    
+                <a href="#" class="close_btn"><span class="material-symbols-outlined">
+                    close
+                    </span></a>
+                </div>
+        </article>
+        <? include "../common/sub_footer.html" ?>
+        <script src="./js/popup.js"></script>
+        <script>
+            $('.wp1').waypoint(function() {    //스크롤링시 효과가 발생할 요소의 클래스나 아이디명.
+                $('.wp1').addClass('animated fadeInDown');
+            }, {
+                offset: '80%'            //스크롤과의 거리
+            });
+            $('.wp2').waypoint(function() {
+                $('.wp2').addClass('animated fadeInDown');
+            }, {
+                offset: '80%'
+            });        
+            $('.wp3').waypoint(function() {
+                $('.wp3').addClass('animated fadeInDown');
+            }, {
+                offset: '80%'
+            });
+            $('.wp4').waypoint(function() {
+                $('.wp4').addClass('animated fadeInDown');
+            }, {
+                offset: '80%'
+            });
+        </script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+@keyframes headani{
+    
+}
+
+
+
+.history .hisTop{margin-bottom: 150px;}
+.history .hisTop ul{color: #333; font-size: 1.75em; text-align: center; padding-top: 70px;}
+.history .hisTop li{margin-bottom: 20px;}
+.history .hisTop li span{font-weight: 500; color: rgba(239,0,16,1);}
+
+.history .hisTop2 ul{width: 1000px; margin: 0 auto; overflow: hidden; transition: all 1s ease;}
+.history .hisTop2 li{float: left; text-align: center; width: 25%; position: relative; transition: all 1s ease; height: 120px;}
+.history .hisTop2 a{display: block; padding: 40px 0 20px 0; border: 1px #333 solid ;border-left-width: 0; color: #999; transition: all .3s linear; font-size: 1.5em; height: 120px; box-sizing: border-box;}
+/* .history .hisTop2 a::before{content: ""; display: block; border: 1px #333 solid ; width: 250px; height: 56px; position: absolute; top: 0; left: 0; box-sizing: border-box; border-left: none;} */
+.history .hisTop2 li:nth-of-type(1) a{border-left-width: 1px;}
+.history .hisTop2 .hisCurrent{background: #fff; color: rgba(239,0,16,1); }
+.history .hisTop2 li:hover a{background: rgba(239,0,16,.1);}
+
+.history .hisTop2{transition: all .3s ease; margin-bottom: 150px;}
+.history .hisImg{margin-bottom: 150px; position: relative;}
+.history .hisImg img{position: relative; left: 50%; margin-left: -1000px;}
+.history .hisImg li:nth-last-of-type(1){position: absolute; top: 200px; left: 50%; margin-left: -135px; color: #fff; font-size: 2.5em; text-align: center;}
+.history .hisImg strong{display: block; margin-bottom: 20px;}
+
+.history .his2010{margin-bottom:150px; position: relative; overflow: hidden;}
+.history .his2010::after{content: ""; display: block; clear: both;}
+
+.history .hisYear1 dl:nth-of-type(1){float: left;}
+.history .hisYear1 dl{ font-weight: 700; }
+.history .hisYear1:nth-of-type(1) dl{height: 2640px;}
+.history .hisYear1 dt{float: left; -webkit-text-stroke: 2px rgba(239,0,16,1); color: #fff; top: 0; }
+.history .hisYear1 dd{float: left; color: rgba(239,0,16,.3); }
+.history .hisYear1 dd::after{content: ""; clear: both; display: block;}
+
+.history .hisYear2 dl:nth-of-type(1){float: left;}
+.history .hisYear2 dl{ font-weight: 700; }
+.history .hisYear2:nth-of-type(1) dl{height: 2080px;}
+.history .hisYear2 dt{float: left; -webkit-text-stroke: 2px rgba(239,0,16,1); color: #fff;top: 0; }
+.history .hisYear2 dd{float: left; color: rgba(239,0,16,.3); }
+.history .hisYear2 dd::after{content: ""; clear: both; display: block;}
+
+.history .hisYear3 dl:nth-of-type(1){float: left;}
+.history .hisYear3 dl{ font-weight: 700; }
+.history .hisYear3:nth-of-type(1) dl{height: 1880px;}
+.history .hisYear3 dt{float: left; -webkit-text-stroke: 2px rgba(239,0,16,1); color: #fff; top: 0; }
+.history .hisYear3 dd{float: left; color: rgba(239,0,16,.3); }
+.history .hisYear3 dd::after{content: ""; clear: both; display: block;}
+
+.history .hisYear4 dl:nth-of-type(1){float: left;}
+.history .hisYear4 dl{ font-weight: 700; }
+.history .hisYear4:nth-of-type(1) dl{height: 1390px;}
+.history .hisYear4 dt{float: left; -webkit-text-stroke: 2px rgba(239,0,16,1); color: #fff;top: 0; }
+.history .hisYear4 dd{float: left; color: rgba(239,0,16,.3); }
+.history .hisYear4 dd::after{content: ""; clear: both; display: block;}
+.hisCon{margin-left: 400px; padding-top: 15px;}
+.history .hisCon dl{margin: 50px 0 200px 300px; transition: all .2s ease;}
+.history .hisCon dt{margin-bottom: 20px; color: rgba(239,0,16,1); font-size: 1.5em;}
+/* .history .hisCon dd{height: 50px;} */
+/* .history .hisCon dd::after{content: ""; display: block; clear: both;} */
+/* .history .hisCon dd:nth-last-of-type(1):before{content: ""; display: block; height: 1px; width: 700px; background: #333; position: absolute; top: 30px; left: 0;} */
+.history .hisCon img{margin-top: 30px;border-radius: 50px; box-shadow: 5px 5px 20px rgba(0,0,0,.2);}
+.history .hisCon li{margin-bottom: 30px;}
+.history .hisCon::after{content: ''; display: block; clear: both;}
+
+
+
+.navOn{position: fixed; z-index:120; left:0; top: 0; background: rgba(239,0,16,1);width: 100%; height: 120px; transition: all .3s ease;}
+.history .navOn ul{width: 1000px;  margin: 0 auto; height: 120px; transition: all .3s ease;}
+.history .navOn li a{border: none; transition: all .3s ease; color: #fff;}
+.history .navOn li a:hover{background: rgba(239,0,16,1); color: #fff;}
+/* .history .his2010 .hisYear1, .hisYear2, .hisYear3, .hisYear4{position: relative; width: 1200px;} */
+.history .his2010 .mainYear{position: absolute; left: 160px ; top: 120px;}
+.history .his2010 .yearCurrent{position: fixed; top: 0; left: 50%; margin-left: -600px; border-bottom: none;}
+.history .his2010 .subYear{margin-left: 300px;transition: all .2s ease; position: relative; top: 120px;}
+.history .his2010 .subYear li{transition: all .2s ease;}
+.history .hisCon{position: relative; top: 100px;}
+.histoty .hisCon .monCurrent{opacity: 1;}
+
+
+.history .yearAll .subCurrent{color: rgba(239,0,16,1);}
+.history .yearAll{font-size: 7em;  }
+
+
+.history{padding-bottom: 150px;}
+
+

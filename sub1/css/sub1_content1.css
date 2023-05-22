@@ -1,0 +1,35 @@
+/* 기업정보 내용 영역 */
+#content .corp_info{padding: 150px 0;}
+#content .corp_info div:nth-of-type(1){position: relative; margin-bottom: 150px; overflow: hidden; width: 2000px; left: 50%; margin-left: -1000px; top: 0;}
+#content .corp_info div:nth-of-type(1) img{transition: all .5s ease;}
+#content .corp_info div:nth-of-type(1) p{position: absolute; left: 50%; margin-left: -1000px; text-align: center; z-index: 10; color: #fff; font-size: 1.750em; background: rgba(0,0,0,.2); width: 2000px; height: 350px; top: 0; padding-top: 120px; box-sizing: border-box; transition: all .5s ease;}
+/* #content .corp_info div:nth-of-type(1):hover img{transform: scale(1.1);}
+#content .corp_info div:nth-of-type(1):hover p{transform: scale(1.1);} */
+#content .corp_info dl{overflow: hidden; position: relative; margin-bottom: 50px;}
+#content .corp_info dl:nth-of-type(2){width: 1200px;margin: 0 auto 50px; background: #f7f7f7;}
+#content .corp_info dt{font-size: 1.750em; font-weight: 700; text-align: justify;}
+#content .corp_info dd{font-size: 1.250em; text-align: justify; width: 500px;}
+#content .corp_info dl dt{position: absolute; top: 50px; left: 670px;}
+#content .corp_info dl dd{position: absolute; top: 170px; left: 670px;}
+#content .corp_info dl:nth-of-type(1){background: url(../images/content1/content2.jpg) no-repeat; background-position: left center; width: 1200px; height: 400px;}
+#content .corp_info dl:nth-of-type(2){background: url(../images/content1/content3.jpg) no-repeat; background-position: right center; width: 1200px; height: 400px;}
+#content .corp_info dl:nth-of-type(3){background: url(../images/content1/content4.jpg) no-repeat; background-position: left center; width: 1200px; height: 400px;}
+#content .corp_info dl:nth-of-type(2) dt{position: absolute; top: 50px; left: 30px;}
+#content .corp_info dl:nth-of-type(2) dd{position: absolute; top: 170px; left: 30px;}
+#content .corp_info dl:nth-of-type(3) dd{top: 120px;}
+#content .corp_info dl:nth-of-type(2) img{float: right;}
+#content .corp_info dl:nth-of-type(2) img::after{content: ""; display: block; clear: both;}
+
+#content .corp_sale{position: relative;}
+#content .corp_sale .corp_saleBack{background: fixed url(../images/content1/content5.jpg) no-repeat; background-position: center bottom; width: 2000px; height: 700px; overflow: hidden; position: relative; left: 50%; margin-left: -1000px;}
+#content .corp_sale h3{position: absolute; top: 120px; left: 50%; margin-left: -70px; z-index: 10; font-size: 2.375em; color: #fff; font-weight: 500;}
+#content .corp_sale h3::after{content: ""; display: block; width: 85px; height: 2px; background: rgba(239,0,16,1);margin: 10px 0 0 25px;}
+#content .corp_sale .corp_saleInner{position: absolute; top: 270px; left: 442px; overflow: hidden; padding-top: 40px;}
+#content .corp_sale dl{float: left; text-align: center; margin-right: 160px; color: #fff; position: relative; }
+#content .corp_sale dl::before{content: "2022"; display: block; width: 100px; height: 50px; background: rgba(239,0,16,.7); border-radius: 25px; position: absolute; top: -40px; left: 80px; padding-top: 13px; box-sizing: border-box;}
+#content .corp_sale dl:nth-of-type(2):before{content: "2021";}
+#content .corp_sale dl:nth-of-type(3):before{content: "2020";}
+#content .corp_sale dl:nth-of-type(3){margin-right: 0; }
+#content .corp_sale dt{font-size: 4.375em; font-weight: 500;}
+#content .corp_sale dd{font-size: 1em;}
+#content .corp_sale p{position: absolute; bottom: 70px; right: 400px; color: #fff; font-size: 1em; font-weight: 500;}

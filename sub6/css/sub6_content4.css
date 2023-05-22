@@ -1,0 +1,21 @@
+.map .map_tap{overflow: hidden; width:1200px; margin-top: 100px;}
+.map .map_tap li{float: left; text-align: center; width: 400px; position: relative; margin-bottom: 150px; }
+.map .map_tap a{display: block; padding: 20px 0 20px 0; border: 1px #333 solid ;border-left-width: 0; color: #333; box-sizing: border-box; font-size: 1.5em; transition: all .3s ease;}
+.map .map_tap li:nth-of-type(1) a{border-left-width: 1px;}
+.map .map_tap .mapCurrent{ background: rgba(239,0,16,.1); border-color: rgba(239,0,16,1); border-left-color: rgba(239,0,16,1); color: rgba(239,0,16,1); position: relative;}
+.map .map_tap .mapCurrent::before{content: ''; display: block; width: 1px; height: 77px; position: absolute; left: -1px; top: -1px; background: rgba(239,0,16,1);}
+.map .map_tap li:hover a{background: rgba(239,0,16,.1);}
+.map_area .map1{margin-bottom: 150px; }
+.map_area .mapbox{height: 1250px; overflow: hidden;}
+.map_area .map1 ul{overflow: hidden;}
+.map_area .map1 li{font-size: 1.5em; margin-bottom: 30px;}
+.map_area .map1 li:nth-of-type(1) i{margin-right: 25px;}
+.map_area .map1 li:nth-of-type(1) span{margin-left: 95px;}
+.map_area .map1 li i{margin-right: 20px;}
+.map_area .map1 li span{margin: 0 50px;}
+.map_area .map1 li:nth-of-type(2){float: left; margin-right: 100px;}
+.map_area .map1 #map_content1{width: 1200px; height: 600px;  margin-bottom: 100px;}
+.map_area .map1 #map_content2{width: 1200px; height: 600px;  margin-bottom: 100px;}
+.map_area .map1 #map_content3{width: 1200px; height: 600px;  margin-bottom: 100px;}
+.map_area .map1 ul:nth-of-type(1){margin-bottom: 50px;}
+.map_area .map1 .publicVehicle li:nth-of-type(1){font-size: 2em; font-weight: 700; margin-bottom: 50px; }
