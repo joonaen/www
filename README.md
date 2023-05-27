@@ -26,4 +26,4 @@ http://gogooma0510.cafe24.com/
   <li>그누보드</li>
 </ul>
 
-gnb, familysite,index페이지의 기능을 순수 Javascript로 구현했습니다
+# gnb, familysite,index페이지의 기능을 순수 Javascript로 구현했습니다
